@@ -1,0 +1,44 @@
+.stats {
+  text-align: center;
+  padding: 16px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li {
+  font-weight: bolder;
+  margin-bottom: 12px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.stats li {
+  color: #ff0101;
+  font-size: 18px;
+}
+
+.stats li:first-child {
+  color: #28a745;
+}
+
+.stats li:nth-child(2) {
+  color: #ffc107;
+}
+
+.stats li:last-child {
+  color: #3917b6;
+}
+
+.stats .total {
+  color: rgb(0, 0, 0);
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.stats .percentage {
+  color: #28a745;
+}
